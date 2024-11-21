@@ -21,6 +21,7 @@ const servicesData = [
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae blanditiis culpa reprehenderit laudantium quis perferendis aspernatur sint nihil repellendus.",
   },
 ];
+
 const Service = () => {
   return (
     <section className="overflow-hidden relative w-full  bg-[rgb(0,0,0)] pt-10 pb-20 px-[3%] md:py-[4%]  flex flex-col justify-start items-start">
@@ -32,7 +33,7 @@ const Service = () => {
         />
       </figure>
       <article className="relative z-50 flex flex-col  gap-2 text-balance px-3 ">
-        <h5 className="text-white font-title text-5xl lg:text-6xl xl:text-7xl">
+        <h5 className="text-gray font-title text-5xl lg:text-6xl xl:text-7xl">
           A que nos dedicamos?
         </h5>
       </article>

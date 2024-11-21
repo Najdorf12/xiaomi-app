@@ -49,17 +49,17 @@ const Home = () => {
         <div className="w-full font-text2 text-sm flex justify-start items-start mt-5 gap-3  lg:gap-12 lg:mt-4 xl:mt-6 2xl:mt-8">
           <button
             id="box-glass2"
-            className="group bg-gradient-to-l from-secondary via-gray to-transparent text-stone-200 group border-[2px] rounded-3xl font-semibold  border-stone-500 pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base md:py-[2px]  lg:border-stone-400  xl:w-[195px]  duration-500"
+            className="group bg-gradient-to-l from-secondary via-gray to-transparent text-stone-200 group border-[2px] rounded-3xl font-semibold  border-stone-500 pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]  lg:border-stone-400  lg:w-[195px]  duration-500"
           >
             SERVICIO
-            <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[-145deg]  duration-500 font-normal"></i>
+            <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
           </button>
           <button
             id="box-glass2"
-            className="group  text-stone-400 group border-[2px] rounded-3xl font-semibold  border-stone-500 pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base md:py-[2px]  lg:border-stone-400 lg:text-stone-200  xl:w-[195px]  duration-500"
+            className="group  text-stone-400 group border-[2px] rounded-3xl font-semibold  border-stone-500 pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]  lg:border-stone-400 lg:text-stone-200  lg:w-[195px]  duration-500"
           >
             CONTACTO
-            <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[-145deg]  duration-500 font-normal"></i>
+            <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
           </button>
         </div>
       </article>

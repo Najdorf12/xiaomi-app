@@ -40,7 +40,7 @@ const About = () => {
             className="w-full h-full object-cover object-[-100px] md:object-center "
           />
         </figure>
-        <article className="relative z-50 w-full h-full mx-2  flex flex-col justify-start items-center text-balance gap-3 text-center lg:max-w-[800px] lg:self-center xl:gap-4 2xl:max-w-[1000px]">
+        <article className="relative z-50 w-full h-full mx-2  flex flex-col justify-start items-center text-balance gap-3 text-center md:max-w-[800px] lg:self-center xl:gap-4 2xl:max-w-[1000px]">
           <h6 className="text-gray2 text-2xl font-medium font-title lg:text-4xl xl:text-5xl 2xl:text-6xl">
             Lorem, ipsum dolor sit amet consectetur adipiscing.
           </h6>
@@ -52,10 +52,10 @@ const About = () => {
           <div className="flex justify-center mt-1 ">
             <button
               id="box-glass2"
-              className="group bg-gradient-to-l from-secondary via-gray to-gray text-stone-100 group  rounded-3xl font-semibold   pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base  xl:w-[195px]  duration-500"
+              className="group bg-gradient-to-l from-secondary via-gray to-gray text-stone-100 group  rounded-3xl font-semibold border border-stone-500  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base  xl:w-[195px]  duration-500"
             >
               TIENDA
-              <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[-145deg]  duration-500 font-normal"></i>
+              <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
             </button>
           </div>
         </article>
