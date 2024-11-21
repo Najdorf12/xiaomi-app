@@ -1,5 +1,133 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#box-glass {
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 4px );
+}
+#box-glass2 {
+  backdrop-filter: blur(9px );
+  -webkit-backdrop-filter: blur( 9px );
+}
+
+/* From Uiverse.io by escannord */
+.secondary-btn {
+  --color: rgb(235, 178, 55);
+  padding: .8rem 1.7rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  border-radius: 3px;
+}
+
+.arrow {
+  display: inline-flex;
+  position: relative;
+  width: 30px;
+  height: 12px;
+  margin-left: 0.5rem;
+}
+
+.arrow::after,
+.arrow::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-color: var(--color);
+}
+
+.arrow::after {
+  width: 10px;
+  height: 0;
+  border: 2px solid var(--color);
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.arrow::before {
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid var(--color);
+  border-right: 3px solid var(--color);
+  left: -2px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.secondary-btn:hover {
+  background-color: var(--color);
+  color: white;
+}
+
+.secondary-btn:hover .arrow {
+  transform: translateX(10px);
+}
+
+.secondary-btn:hover .text {
+  transform: translateX(10px);
+}
+
+.secondary-btn:hover .arrow::after {
+  width: 25px;
+  border-color: white;
+}
+
+.secondary-btn:hover .arrow::before {
+  left: 15px;
+  border-color: white;
+}
+
+.secondary-btn,
+.text,
+.arrow,
+.arrow::after,
+.arrow::before,
+.secondary-btn::before,
+.secondary-btn::after {
+  transition: all 0.3s, box-shadow 0.2s;
+}
+
+.secondary-btn::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 12px;
+  border-radius: 5px;
+  border: solid 3px var(--color);
+  border-right-color: transparent;
+  
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.secondary-btn::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 10px;
+  border-radius: 5px;
+  border: solid 3px var(--color);
+  border-left-color: transparent;
+  background-color: transparent;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.secondary-btn:hover:before,
+.secondary-btn:hover:after {
+  width: 50% !important;
+}
+
+.secondary-btn:active {
+  box-shadow: 0px 0px 0px 7px rgba(79, 78, 105, 0.295);
+}
