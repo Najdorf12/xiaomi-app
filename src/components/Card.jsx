@@ -8,8 +8,8 @@ const Card = ({cardData}) => {
       </figure>
       <article className="text-balance 
       ">
-        <div className="w-[35%] h-[2px] bg-secondary z-40"></div>
-        <p className="font-text mt-2 text-stone-300 text-base xl:text-lg 2xl:text-xl">
+        <div className="w-[35%] h-[2px] bg-primary z-40"></div>
+        <p className="font-text mt-2 text-stone-400 text-base xl:text-lg 2xl:text-xl">
           {cardData?.content}
         </p>
       </article>

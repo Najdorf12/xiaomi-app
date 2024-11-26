@@ -2,7 +2,7 @@ import bgBanner from "/bg/bg5.webp";
 
 const Banner = () => {
   return (
-    <section className="relative w-full min-h-[400px] bg-red-500 py-1 lg:h-screen pt-[2%]">
+    <section className="relative w-full min-h-[400px] py-1 lg:h-screen pt-[2%]">
       <figure className="w-full h-full absolute inset-0 ">
         <img
           src={bgBanner}

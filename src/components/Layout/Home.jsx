@@ -1,4 +1,4 @@
-import bgHome from "/bg/bg10.jpg";
+import bgHome from "/st4.jpg";
 import GradientBtn from "../Buttons/GradientBtn";
 import Logo from "../Logo";
 import { useState } from "react";
@@ -14,21 +14,21 @@ const Home = () => {
         <figure className="z-50 w-9">
           <Logo />
         </figure>
-        <ul className="flex justify-center font-medium items-center gap-6 font-title text-stone-500 text-sm xl:text-base xl:gap-9 2xl:text-xl ">
-          <li className="border-l-[1px] border-stone-500 py-[1px] pl-2 xl:pl-3 ">
+        <ul className="flex justify-center font-medium items-center gap-6 font-title text-stone-300 text-sm xl:text-base xl:gap-9 2xl:text-xl ">
+          <li className="border-l-[1px] border-primary py-[1px] pl-2 xl:pl-3 ">
             Servicio
           </li>
-          <li className="border-l-[1px] border-stone-500 py-[1px] pl-2 xl:pl-3">
+          <li className="border-l-[1px] border-primary py-[1px] pl-2 xl:pl-3">
             Contacto
           </li>
         </ul>
       </nav>
 
-      <figure className="w-full h-full absolute inset-0 ">
+      <figure className="w-full h-full absolute inset-0 grayscale-[1]">
         <img
           src={bgHome}
           alt="bgHome"
-          className="w-full h-full object-cover object-[-1290px_0px] md:object-center z-20"
+          className="w-full h-full object-cover object-center z-20"
         />
       </figure>
       <article
@@ -49,7 +49,7 @@ const Home = () => {
         <div className="w-full font-text2 text-sm flex justify-start items-start mt-5 gap-3  lg:gap-12 lg:mt-4 xl:mt-6 2xl:mt-8">
           <button
             id="box-glass2"
-            className="group bg-gradient-to-l from-secondary via-gray to-transparent text-stone-200 group border-[2px] rounded-3xl font-semibold  border-stone-500 pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]  lg:border-stone-400  lg:w-[195px]  duration-500"
+            className="group bg-gradient-to-l from-primary via-gray to-transparent text-stone-200 group border-[2px] rounded-3xl font-semibold  border-stone-500 pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]  lg:border-stone-400  lg:w-[195px]  duration-500"
           >
             SERVICIO
             <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
