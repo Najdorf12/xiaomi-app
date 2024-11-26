@@ -35,14 +35,14 @@ const Home = () => {
         id={windowWidth < 1000 ? "box-glass2" : "box-glass2"}
         className="relative border-y border-gray mx-2 mt-14 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance lg:text-start lg:ml-[6%] lg:justify-start lg:items-start lg:w-[550px]  lg:pl-6 xl:w-[700px] xl:pt-4 xl:pb-6 2xl:w-[790px]"
       >
-        <h3 className="z-50 text-stone-500 font-title font-semibold text-xl leading-[3rem]  xl:text-4xl xl:leading-[5rem]">
+        <h3 className="z-50 text-primary font-title font-semibold text-xl leading-[3rem]  xl:text-4xl xl:leading-[5rem]">
           SERVICIO TECNICO
           <br />
           <span className="text-[4.7rem] font-medium text-white xl:text-[8.5rem] 2xl:text-[8.5rem]">
             XIAOMI
           </span>
         </h3>
-        <p className="z-50 font-title mt-2 font-medium text-base text-stone-400 lg:text-lg xl:mt-1 xl:text-xl  2xl:text-2xl  ">
+        <p className="z-50 font-title mt-2 font-medium text-base text-zinc-600 lg:text-lg xl:mt-1 xl:text-xl  2xl:text-2xl  ">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius placeat
           sapiente fuga eaque reprehenderit officia.
         </p>
