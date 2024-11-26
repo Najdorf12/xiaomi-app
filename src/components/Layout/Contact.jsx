@@ -1,6 +1,29 @@
 import bgContact from "/bg/bg1.webp";
 import map from "/map.jpeg";
+import { useForm } from "react-hook-form";
+
 const Contact = () => {
+  const { register, handleSubmit, formState: { errors } } = useForm();
+ 
+  const onSubmit = async (data) => {
+    try {
+        const response = await fetch('https://xioami-backend.vercel.app/send-email', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        });
+        const result = await response.json();
+        if (response.ok) {
+          console.log('Correo enviado:', result);
+        } else {
+          console.error('Error al enviar el correo:', result.error);
+        }
+      } catch (err) {
+        console.error('Error en la solicitud:', err);
+      }
+};
   return (
     <>
       <section className="pt-20 w-full bg-[rgb(0,0,0)] flex flex-col xl:flex-row xl:justify-center xl:items-start">
