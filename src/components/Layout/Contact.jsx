@@ -1,4 +1,5 @@
 import bgContact from "/bg/bg1.webp";
+import map from "/map.jpeg";
 const Contact = () => {
   return (
     <>
@@ -92,7 +93,16 @@ const Contact = () => {
           </div>
         </section>
       </section>
-      <section className="relative w-full h-[400px] lg:h-[600px] -mt-8 lg:-mt-12 bg-[rgb(0,0,0)] flex justify-center items-center">
+      <section className="relative  h-[350px] lg:h-[400px]  bg-[rgb(0,0,0)] flex justify-center items-center">
+        <figure className="w-full mt-6 h-full absolute inset-0 flex justify-center items-center ">
+          <img
+            src={map}
+            alt="bgHome"
+            className="w-[90%] rounded-sm border-zinc-600 h-full object-cover object-center md:object-center "
+          />
+        </figure>
+      </section>
+      <section className="relative w-full h-[400px] lg:h-[600px]  bg-[rgb(0,0,0)] flex justify-center items-center">
         <figure className="w-full h-full absolute inset-0 flex ">
           <img
             src={bgContact}
