@@ -3,27 +3,34 @@ import map from "/map.jpeg";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
-  const { register, handleSubmit, formState: { errors } } = useForm();
- 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
   const onSubmit = async (data) => {
     try {
-        const response = await fetch('https://xioami-backend.vercel.app/send-email', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        });
-        const result = await response.json();
-        if (response.ok) {
-          console.log('Correo enviado:', result);
-        } else {
-          console.error('Error al enviar el correo:', result.error);
+      const response = await fetch(
+        "https://xioami-backend.vercel.app/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
         }
-      } catch (err) {
-        console.error('Error en la solicitud:', err);
+      );
+      const result = await response.json();
+      if (response.ok) {
+        console.log("Correo enviado:", result);
+      } else {
+        console.error("Error al enviar el correo:", result.error);
       }
-};
+    } catch (err) {
+      console.error("Error en la solicitud:", err);
+    }
+  };
   return (
     <>
       <section className="pt-20 w-full bg-[rgb(0,0,0)] flex flex-col xl:flex-row xl:justify-center xl:items-start">
@@ -61,6 +68,7 @@ const Contact = () => {
                   Repellendus, consequuntur?
                 </p>
                 <form
+                  onSubmit={handleSubmit(onSubmit)}
                   method="POST"
                   action="#"
                   className="mt-8 space-y-6 font-text"
@@ -78,6 +86,7 @@ const Contact = () => {
                         type="email"
                         name="email"
                         id="email"
+                        {...register("email")}
                       />
                     </div>
                     <div className="mt-4 ">
@@ -90,8 +99,9 @@ const Contact = () => {
                         required=""
                         autocomplete="current-whatsapp"
                         type="whatsapp"
-                        name="whatsapp"
                         id="whatsapp"
+                        name="whatsapp"
+                        {...register("wttp")}
                       />
                     </div>
                   </div>
@@ -99,6 +109,7 @@ const Contact = () => {
                     <textarea
                       placeholder="Escribe tu consulta aquí"
                       className="appearance-none  bg-transparent relative block w-full px-3 py-3 border border-gray placeholder:text-primary  text-white rounded-md focus:outline-none  focus:border-primary focus:z-10 h-[120px] sm:text-sm md:h-[150px] xl:h-[170px]"
+                      {...register("message")}
                     />
                   </div>
 
