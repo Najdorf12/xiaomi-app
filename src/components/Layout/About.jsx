@@ -31,7 +31,7 @@ const About = () => {
           ))}
         </ul>
       </section>
-    
+
       <section className="relative w-full h-[80vh] flex justify-center items-start overflow-hidden  lg:h-screen pt-[4%] lg:pt-[2%] ">
         <figure className="w-full h-full absolute inset-0 ">
           <img
@@ -50,13 +50,18 @@ const About = () => {
             eaque neque.
           </p>
           <div className="flex justify-center mt-1 ">
-            <button
-              id="box-glass2"
-              className="group bg-gradient-to-l from-primary via-gray to-gray text-stone-100 group  rounded-3xl font-semibold border border-stone-500  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base  xl:w-[195px]  duration-500"
+            <a
+              href="https://www.grupolacomunidad.com.ar/products/xiaomi"
+              target="_blank"
             >
-              TIENDA
-              <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
-            </button>
+              <button
+                id="box-glass2"
+                className="group bg-gradient-to-l from-primary via-gray to-gray text-stone-100 group  rounded-3xl font-semibold border border-stone-500  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base  xl:w-[195px]  duration-500"
+              >
+                TIENDA
+                <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-stone-500 text-stone-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
+              </button>
+            </a>
           </div>
         </article>
       </section>
