@@ -8,17 +8,17 @@ const servicesData = [
   {
     icon: iconService1,
     content:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae blanditiis culpa reprehenderit laudantium quis perferendis aspernatur sint nihil repellendus.",
+      "Garantía extendida en reparaciones: Todas nuestras reparaciones incluyen garantía, asegurándote tranquilidad y confianza en nuestro trabajo.",
   },
   {
     icon: iconService2,
     content:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae blanditiis culpa reprehenderit laudantium quis perferendis aspernatur sint nihil repellendus.",
+      "Actualización de software y optimización: Mejoramos el rendimiento de tu celular mediante actualizaciones de software, eliminación de virus y ajustes personalizados para un desempeño óptimo.",
   },
   {
     icon: iconService3,
     content:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae blanditiis culpa reprehenderit laudantium quis perferendis aspernatur sint nihil repellendus.",
+      "Atención personalizada: Nos aseguramos de entender tus necesidades específicas y ofrecerte soluciones adaptadas a tu caso, con un seguimiento cercano durante todo el proceso.",
   },
 ];
 

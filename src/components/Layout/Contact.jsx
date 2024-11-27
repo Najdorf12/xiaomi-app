@@ -50,9 +50,8 @@ const Contact = () => {
             <i className="bx bxs-envelope text-2xl -mt-[6px] text-primary"></i>
             info@serviciotecnicoxiaomi.com.ar
           </p>
-          <p className=" text-stone-500 font-title px-1 sm:px-2 mt-1  xl:mt-2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, consequuntur?
+          <p className="text-base text-stone-500 font-title px-1 sm:px-2 mt-1  xl:mt-2">
+            ¡No esperes más! Estamos listos para ayudarte.
           </p>
         </article>
 
@@ -64,8 +63,7 @@ const Contact = () => {
             <div className="bg-gray-800 rounded-lg shadow-xl overflow-hidden">
               <div className="pt-2 pb-6 px-3 z-50">
                 <p className="mt-4 text-balance text-center text-base text-stone-400 font-text2 2xl:text-lg">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus, consequuntur?
+               Completá el formulario con tus datos y consulta. Nuestro equipo se comunicará con vos a la brevedad para brindarte la solución que necesitás.
                 </p>
                 <form
                   onSubmit={handleSubmit(onSubmit)}
@@ -79,7 +77,7 @@ const Contact = () => {
                         Email
                       </label>
                       <input
-                        placeholder="Email address"
+                        placeholder="Email"
                         className="appearance-none  bg-transparent relative block w-full px-3 py-3 border border-gray placeholder:text-primary  text-white rounded-md focus:outline-none  focus:border-primary focus:z-10 sm:text-sm"
                         required=""
                         autocomplete="email"

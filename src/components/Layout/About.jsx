@@ -8,17 +8,17 @@ const cardsData = [
   {
     icon: icon1,
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, illo.",
+      "Opciones ágiles y efectivas: Brindamos respuestas dentro de las 24 horas, según la complejidad del equipo afectado.",
   },
   {
     icon: icon2,
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, illo.",
+      "Atención 24/7: Estamos disponibles para responder rápidamente y resolver cualquier consulta que puedas tener.",
   },
   {
     icon: icon3,
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, illo.",
+      "Respaldo garantizado: Nuestros servicios cuentan con garantía para brindarte tranquilidad y confianza.",
   },
 ];
 const About = () => {
@@ -32,7 +32,7 @@ const About = () => {
         </ul>
       </section>
 
-      <section className="relative w-full h-[80vh] flex justify-center items-start overflow-hidden  lg:h-screen pt-[4%] lg:pt-[2%] ">
+      <section className="relative w-full h-[80vh] flex justify-center items-start overflow-hidden  lg:h-screen lg:justify-start pt-[4%] lg:pt-[2%] ">
         <figure className="w-full h-full absolute inset-0 ">
           <img
             src={bgAbout}
@@ -40,16 +40,14 @@ const About = () => {
             className="w-full h-full object-cover -[-1290px_0px] md:object-center "
           />
         </figure>
-        <article className="relative z-50 w-full h-full mx-2  flex flex-col justify-start items-center text-balance gap-3 text-center md:max-w-[800px] lg:self-center xl:gap-4 2xl:max-w-[1000px]">
-          <h6 className="text-gray text-2xl font-medium font-title lg:text-4xl xl:text-5xl 2xl:text-6xl">
-            Lorem, ipsum dolor sit amet consectetur adipiscing.
+        <article className="relative z-50 w-full h-full mx-2  flex flex-col justify-start items-center text-balance gap-4 text-center md:max-w-[700px] lg:pl-[4%] lg:text-start xl:gap-4 2xl:max-w-[1000px]">
+          <h6 className="text-gray text-3xl font-medium font-title lg:text-4xl xl:text-5xl 2xl:text-6xl">
+          ¿Por qué elegir Xiaomi Service?
           </h6>
-          <p className="text-stone-500 text-sm font-medium font-text2 lg:text-base xl:text-lg 2xl:text-xl ">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
-            quis similique explicabo eum blanditiis atque dolorem, maiores vitae
-            eaque neque.
+          <p className="text-stone-300 text-sm font-medium font-text2 lg:text-base xl:text-lg 2xl:text-xl ">
+          Somos expertos en el mantenimiento y reparación de dispositivos Xiaomi, ofreciendo soluciones precisas y de larga duración. Contamos con nuestro propio laboratorio, lo que nos permite atender desde ajustes simples hasta reparaciones complejas con total eficiencia. Nuestro compromiso es brindarte una experiencia excepcional, combinando rapidez, calidad y tecnología de última generación, aspectos que nos destacan en el sector. Al enfocarnos exclusivamente en equipos Xiaomi, conocemos a fondo cada modelo y sus procesos, asegurando un servicio especializado y personalizado para cada cliente.
           </p>
-          <div className="flex justify-center mt-1 ">
+          <div className="flex justify-center mt-1 lg:justify-start lg:self-start">
             <a
               href="https://www.grupolacomunidad.com.ar/products/xiaomi"
               target="_blank"
