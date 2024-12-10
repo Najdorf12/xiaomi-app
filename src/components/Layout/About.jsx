@@ -32,7 +32,7 @@ const About = () => {
         </ul>
       </section>
 
-      <section className="relative  w-full py-6 flex flex-col justify-center items-center  overflow-hidden   lg:flex-row lg:px-3 xl:py-20">
+      <section className="relative  w-full py-6 flex flex-col justify-center items-center  overflow-hidden   lg:flex-row lg:px-3 lg:pb-12">
         
         <article className="relative z-50 w-full px-2  flex flex-col justify-start items-center text-balance gap-4 text-center py-[4%]  lg:px-9 xl:px-12 lg:pt-[2%] lg:rounded-lg md:max-w-[700px]  lg:max-w-[800px]  xl:gap-6 2xl:max-w-[900px]">
           <h6 className="text-primary text-4xl font-medium font-title lg:text-primary lg:text-start lg:text-4xl xl:text-5xl 2xl:text-6xl">
