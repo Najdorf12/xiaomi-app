@@ -34,7 +34,7 @@ const Home = () => {
        
       </figure>
       <article
-        id={windowWidth < 1000 ? "box-glass2" : "box-glass"}
+        id={windowWidth < 1000 ? "box-glass2" : "box-glass3"}
         className="relative border-y border-gray mx-2 mt-14 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance  lg:text-start lg:ml-[6%] lg:justify-start lg:items-start lg:w-[550px]  lg:pl-6 xl:w-[700px] xl:pt-4 xl:pb-6 2xl:w-[790px]"
       >
         <h3 className="z-50 text-primary font-title font-semibold text-2xl leading-[3.3rem]  xl:text-4xl xl:leading-[5rem]">
