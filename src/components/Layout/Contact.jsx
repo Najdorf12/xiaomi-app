@@ -33,7 +33,7 @@ const Contact = () => {
   };
   return (
     <>
-      <section className="pt-20 w-full bg-[rgb(0,0,0)] flex flex-col xl:flex-row xl:justify-center xl:items-start">
+      <section className="pt-20 w-full bg-white flex flex-col xl:flex-row xl:justify-center xl:items-start ">
         <article className="flex  flex-col justify-center items-start text-balance text-sm font-medium gap-2 pl-4 ml-[5%] py-3 border-l-[2px] border-primary text-stone-400 md:text-base xl:h-fit xl:mt-6 xl:pl-6 xl:gap-3 2xl:text-xl">
           <h6 className="text-6xl text-stone-300  font-medium font-title xl:text-7xl 2xl:text-8xl">
             Contacto
@@ -125,7 +125,7 @@ const Contact = () => {
           </div>
         </section>
       </section>
-      <section className="relative  h-[350px] lg:h-[400px]  bg-[rgb(0,0,0)] flex justify-center items-center">
+      <section className="relative  h-[350px] lg:h-[400px] lg:mt-3  bg-white flex justify-center items-center ">
         <figure className="w-full mt-6 h-full absolute inset-0 flex justify-center items-center ">
           <img
             src={map}
@@ -134,15 +134,9 @@ const Contact = () => {
           />
         </figure>
       </section>
-      <section className="relative w-full h-[400px] lg:h-[600px]  bg-[rgb(0,0,0)] flex justify-center items-center">
-        <figure className="w-full h-full absolute inset-0 flex ">
-          <img
-            src={bgContact}
-            alt="bgHome"
-            className="w-full h-full object-cover object-center md:object-center "
-          />
-        </figure>
-      </section>
+       <section className="relative w-full h-6 lg:h-12  bg-white flex justify-center items-center">
+       
+      </section> 
     </>
   );
 };

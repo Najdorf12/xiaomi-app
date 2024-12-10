@@ -12,6 +12,10 @@
   backdrop-filter: blur(9px );
   -webkit-backdrop-filter: blur( 9px );
 }
+#box-glass3 {
+  backdrop-filter: blur(20px );
+  -webkit-backdrop-filter: blur( 20px );
+}
 
 /* From Uiverse.io by escannord */
 .secondary-btn {
