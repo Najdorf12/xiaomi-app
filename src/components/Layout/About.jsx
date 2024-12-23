@@ -24,7 +24,7 @@ const cardsData = [
 const About = () => {
   return (
     <>
-      <section className="overflow-hidden w-full flex justify-center items-center bg-white  pt-1 pb-9 lg:pt-0 lg:pb-20 lg:-mt-6 2xl:py-20">
+      <section className="overflow-hidden w-full flex justify-center items-center bg-white  pt-1 pb-9 lg:pt-0 lg:pb-20 lg:-mt-6 2xl:">
         <ul className="z-50  w-full  relative flex justify-center px-3 items-center flex-wrap  gap-x-2 gap-y-5  lg:gap-0 lg:justify-evenly">
           {cardsData?.map((cardData, i) => (
             <Card key={i} cardData={cardData} />
@@ -57,7 +57,7 @@ const About = () => {
           </div>
         </article>
 
-        <figure className="w-full h-full mt-6 lg:w-1/2 lg:pl-6 lg:-mt-8">
+        <figure className="w-full h-full mt-6 lg:w-1/2 lg:pl-6 lg:-mt-8 ">
           <img
             src={bgAbout}
             alt="bgHome"

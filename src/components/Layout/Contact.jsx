@@ -35,8 +35,8 @@ const Contact = () => {
     <>
       <section className="pt-20 w-full bg-white flex flex-col xl:pt-14 xl:flex-row xl:justify-center xl:items-center ">
         <div className=" w-full">
-          <article className="flex  flex-col justify-center items-start text-balance text-sm font-medium gap-2 pl-4 ml-[5%] py-3 border-l-[2px] border-primary text-stone-400 md:text-base xl:h-fit xl:mt-6 xl:pl-6 xl:gap-3 2xl:text-xl">
-            <h6 className="text-6xl text-stone-300  font-medium font-title xl:text-7xl 2xl:text-8xl">
+          <article className="flex  flex-col justify-center items-start text-balance text-sm font-medium gap-2 pl-4 ml-[5%] py-3 border-l-[2px] border-primary text-zinc-500 md:text-base xl:h-fit xl:mt-6 xl:pl-6 xl:gap-3 2xl:text-lg">
+            <h6 className="text-6xl text-zinc-700  font-medium font-title xl:text-7xl 2xl:text-8xl">
               Contacto
             </h6>
             <p className=" mt-4 font-title flex items-start justify-start gap-2 xl:mt-4  xl:gap-3">
@@ -51,7 +51,7 @@ const Contact = () => {
               <i className="bx bxs-envelope text-2xl -mt-[6px] text-primary"></i>
               info@serviciotecnicoxiaomi.com.ar
             </p>
-            <p className="text-base text-stone-500 font-title px-1 sm:px-2 mt-1  xl:mt-2">
+            <p className="text-base text-stone-500 font-title px-1 sm:px-2 mt-1  xl:mt-2 xl:text-lg 2xl:text-xl">
               ¡No esperes más! Estamos listos para ayudarte.
             </p>
           </article>
@@ -72,7 +72,7 @@ const Contact = () => {
           >
             <div className="bg-gray-800 rounded-lg shadow-xl overflow-hidden">
               <div className="pt-2 pb-6 px-3 z-50">
-                <p className="mt-4 text-balance text-center text-base text-stone-400 font-text2 2xl:text-lg">
+                <p className="mt-4 text-balance text-center text-base text-zinc-400 font-text2 2xl:text-lg">
                   Completá el formulario con tus datos y consulta. Nuestro
                   equipo se comunicará con vos a la brevedad para brindarte la
                   solución que necesitás.
@@ -125,7 +125,7 @@ const Contact = () => {
 
                   <div>
                     <button
-                      class="group relative w-full flex justify-center py-3 px-4 border border-gray text-base font-bold rounded-md text-primary bg-gray3 hover:bg-gray2 hover:text-stone-400 hover:border-primary duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 "
+                      class="group relative w-full flex justify-center py-3 px-4 border border-gray text-base font-bold rounded-md text-primary bg-zinc-800 hover:bg-gray2 hover:text-stone-400 hover:border-primary duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 "
                       type="submit"
                     >
                       ENVIAR

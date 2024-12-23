@@ -16,10 +16,10 @@ const Home = () => {
           <Logo />
         </figure>
         <ul className="flex justify-center font-medium items-center gap-6 font-title text-zinc-500 text-sm xl:text-base xl:gap-12 2xl:gap-16 2xl:text-xl ">
-          <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 hover:text-primary duration-500 ">
+          <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 hover:text-primary duration-500">
             Servicio
           </li>
-          <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 text-primary duration-500 hover:text-zinc-200 ">
+          <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 text-primary duration-500 hover:text-zinc-200">
             Contacto
           </li>
         </ul>
