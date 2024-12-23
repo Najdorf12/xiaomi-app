@@ -1,5 +1,5 @@
 import Card from "../Card";
-import bgAbout from "/st4.jpg";
+import bgAbout from "/st5.jpg";
 import icon1 from "/icons/icon-service1.png";
 import icon3 from "/icons/icon-garantia.png";
 import icon2 from "/icons/icon-service.png";
