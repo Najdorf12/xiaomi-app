@@ -55,7 +55,7 @@ const Contact = () => {
               ¡No esperes más! Estamos listos para ayudarte.
             </p>
           </article>
-          <section className="relative  h-[350px] lg:h-[400px] lg:mt-3  bg-white flex justify-center items-center ">
+          <section className="relative  h-[350px] lg:h-[400px] lg:mt-3  bg-white flex justify-center items-center  ">
         <figure className="w-full mt-6 h-full absolute inset-0 flex justify-center items-center">
           <img
             src={map}
