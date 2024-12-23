@@ -25,7 +25,7 @@ const Home = () => {
         </ul>
       </nav>
       <div className="lg:w-1/2 lg:pl-[2%] lg:self-start lg:mt-24">
-        <article className="relative mx-2 mt-14 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance  lg:text-start lg:justify-start lg:items-start   lg:mt-0 lg:pl-6 xl:pt-4 xl:pb-6 lg:w-[500px]">
+        <article className="relative mx-2 mt-8 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance  lg:text-start lg:justify-start lg:items-start   lg:mt-0 lg:pl-6 xl:pt-4 xl:pb-6 lg:w-[500px]">
           <h3 className="z-50 text-primary font-title font-semibold text-2xl leading-[3.3rem]  xl:text-4xl xl:leading-[5rem]">
             SERVICIO TECNICO
             <br />
@@ -41,14 +41,14 @@ const Home = () => {
           <div className="w-full font-text2 text-sm flex justify-start items-start mt-8 gap-3  lg:gap-12 lg:mt-4 xl:mt-6 2xl:mt-8">
             <button
               id="box-glass2"
-              className="group  text-zinc-700 group border-[2px] rounded-3xl font-semibold  border-primary pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]    lg:w-[195px]  duration-500"
+              className="group  text-zinc-700 group border-[2px] rounded-3xl font-semibold  border-primary pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]    lg:w-[195px] shadow-lg shadow-zinc-500 duration-500"
             >
               SERVICIO
               <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-primary text-zinc-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
             </button>
             <button
               id="box-glass2"
-              className="group  text-zinc-600 group border-[2px] rounded-3xl font-semibold border-zinc-600  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]   lg:w-[195px]  duration-500"
+              className="group  text-zinc-600 group border-[2px] rounded-3xl font-semibold border-zinc-600  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]   lg:w-[195px] shadow-lg shadow-zinc-500  duration-500"
             >
               CONTACTO
               <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full  bg-primary text-white flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
@@ -56,11 +56,11 @@ const Home = () => {
           </div>
         </article>
       </div>
-      <figure className="flex justify-center items-center mt-3 lg:mt-0 lg:w-1/2 lg:pr-[2%]">
+      <figure className="flex justify-center items-center mt-6 lg:mt-0 lg:w-1/2 lg:pr-[2%]">
         <img
           src={bgHomeMobile}
           alt="Fondo móvil"
-          className="w-full h-full object-cover object-center grayscale-[.]  z-20 lg:rounded-lg"
+          className="w-full h-full object-cover object-center grayscale-[.]  z-20 lg:rounded-lg shadow-lg shadow-zinc-500"
         />
       </figure>
     </section>
