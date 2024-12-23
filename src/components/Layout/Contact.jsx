@@ -33,7 +33,7 @@ const Contact = () => {
   };
   return (
     <>
-      <section className="pt-20 w-full bg-white flex flex-col xl:flex-row xl:justify-center xl:items-center ">
+      <section className="pt-20 w-full bg-white flex flex-col xl:pt-14 xl:flex-row xl:justify-center xl:items-center ">
         <div className=" w-full">
           <article className="flex  flex-col justify-center items-start text-balance text-sm font-medium gap-2 pl-4 ml-[5%] py-3 border-l-[2px] border-primary text-stone-400 md:text-base xl:h-fit xl:mt-6 xl:pl-6 xl:gap-3 2xl:text-xl">
             <h6 className="text-6xl text-stone-300  font-medium font-title xl:text-7xl 2xl:text-8xl">
