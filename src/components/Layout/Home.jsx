@@ -1,4 +1,4 @@
-import bgHomeMobile from "/st10.png";
+import bgHomeMobile from "/st11.jpg";
 import bgHomeDesktop from "/st8.png";
 import GradientBtn from "../Buttons/GradientBtn";
 import Logo from "../Logo";
