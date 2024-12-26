@@ -38,7 +38,7 @@ const About = () => {
           <img
             src={bgVictor}
             alt="bgHome"
-            className="w-full h-full object-cover rounded-lg  object-center grayscale-[.3] shadow-lg shadow-zinc-500"
+            className="w-full h-full object-cover rounded-lg  object-center  "
           />
         </figure>
         <article className="relative z-50 w-full px-2  flex flex-col justify-start items-center text-balance gap-4 text-center py-[4%] lg:w-1/2  lg:px-9 xl:px-12 lg:py-2  lg:rounded-lg md:max-w-[700px]  lg:max-w-[800px]  xl:gap-6 2xl:max-w-[900px]">
