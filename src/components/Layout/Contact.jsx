@@ -2,6 +2,7 @@ import bgContact from "/bg/bg1.webp";
 import map from "/map.jpeg";
 import { useForm } from "react-hook-form";
 
+
 const Contact = () => {
   const {
     register,
@@ -56,6 +57,7 @@ const Contact = () => {
             </p>
           </article>
           <section className="relative  h-[350px] lg:h-[400px] lg:mt-3  bg-white flex justify-center items-center  ">
+            <a href="https://www.google.com/maps/place/Av.+Rivadavia+4963+local+15,+C1424+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6178829,-58.4353674,19z/data=!4m13!1m7!3m6!1s0x95bcca414bacf411:0xe1a00f408a151d26!2sAv.+Rivadavia+4963+local+15,+C1424+Cdad.+Aut%C3%B3noma+de+Buenos+Aires!3b1!8m2!3d-34.6176721!4d-58.4357975!3m4!1s0x95bcca414bacf411:0xe1a00f408a151d26!8m2!3d-34.6176721!4d-58.4357975?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
         <figure className="w-full mt-6 h-full absolute inset-0 flex justify-center items-center">
           <img
             src={map}
@@ -63,6 +65,7 @@ const Contact = () => {
             className="w-[90%] rounded-sm border-zinc-600 h-full object-cover object-center md:object-center "
           />
         </figure>
+          </a>
       </section>
         </div>
         <section className="w-full flex justify-center items-center mt-12">
