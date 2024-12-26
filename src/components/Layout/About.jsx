@@ -33,7 +33,7 @@ const About = () => {
         </ul>
       </section>
 
-      <section className="relative  w-full py-6 flex flex-col  justify-center items-center  overflow-hidden   lg:flex-row-reverse lg:items-center  lg:px-3 lg:pb-12 lg:pt-20 lg:-mt-12 xl:pt-20 xl:pb-20">
+      <section className="relative  w-full py-6 flex flex-col  justify-center items-center  overflow-hidden   lg:flex-row-reverse lg:items-center  lg:px-3 lg:pb-12 lg:pt-20 lg:-mt-12 xl:pt-20 xl:pb-12">
       <figure className="absolute inset-0 w-full h-full ">
           <img
             src={bgVictor}
