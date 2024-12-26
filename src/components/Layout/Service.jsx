@@ -37,7 +37,7 @@ const Service = () => {
           A que nos dedicamos?
         </h5>
       </article>
-      <ul className=" relative z-50 w-full  flex flex-col justify-center items-center gap-2 mt-6 md:items-start lg:mt-9 xl:mt-12 lg:gap-4">
+      <ul className=" relative z-50 w-full  flex flex-col justify-center items-center gap-2 mt-6 md:items-start lg:mt-9 xl:mt-12 ">
         {servicesData?.map((serviceData, i) => (
           <CardService key={i} serviceData={serviceData} />
         ))}

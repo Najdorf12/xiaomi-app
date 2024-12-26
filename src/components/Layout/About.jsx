@@ -1,5 +1,6 @@
 import Card from "../Card";
 import bgAbout from "/st5.jpg";
+import bgVictor from "/st13.jpg";
 import icon1 from "/icons/icon-service1.png";
 import icon3 from "/icons/icon-garantia.png";
 import icon2 from "/icons/icon-service.png";
@@ -32,8 +33,14 @@ const About = () => {
         </ul>
       </section>
 
-      <section className="relative  w-full py-6 flex flex-col  justify-center items-center  overflow-hidden   lg:flex-row-reverse lg:items-center lg:px-3 lg:pb-6 lg:pt-6">
-    
+      <section className="relative  w-full py-6 flex flex-col  justify-center items-center  overflow-hidden   lg:flex-row-reverse lg:items-center  lg:px-3 lg:pb-12 lg:pt-20 lg:-mt-12 xl:pt-20 xl:pb-20">
+      <figure className="absolute inset-0 w-full h-full ">
+          <img
+            src={bgVictor}
+            alt="bgHome"
+            className="w-full h-full object-cover rounded-lg  object-center grayscale-[.3] shadow-lg shadow-zinc-500"
+          />
+        </figure>
         <article className="relative z-50 w-full px-2  flex flex-col justify-start items-center text-balance gap-4 text-center py-[4%] lg:w-1/2  lg:px-9 xl:px-12 lg:py-2  lg:rounded-lg md:max-w-[700px]  lg:max-w-[800px]  xl:gap-6 2xl:max-w-[900px]">
           <h6 className="text-primary text-4xl  font-medium font-title lg:text-primary lg:text-start lg:text-4xl xl:text-5xl 2xl:text-6xl">
           ¿Por qué elegir Xiaomi Service?
