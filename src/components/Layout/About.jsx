@@ -24,7 +24,7 @@ const cardsData = [
 const About = () => {
   return (
     <>
-      <section className="overflow-hidden w-full flex justify-center items-center bg-white  pt-1 pb-9 lg:pt-0 lg:pb-20 lg:-mt-6 2xl:">
+      <section className="overflow-hidden w-full flex justify-center items-center bg-white  pt-1 pb-9 lg:pt-0 lg:pb-20 lg:-mt-9 2xl:">
         <ul className="z-50  w-full  relative flex justify-center px-3 items-center flex-wrap  gap-x-2 gap-y-5  lg:gap-0 lg:justify-evenly">
           {cardsData?.map((cardData, i) => (
             <Card key={i} cardData={cardData} />
@@ -32,9 +32,9 @@ const About = () => {
         </ul>
       </section>
 
-      <section className="relative  w-full py-6 flex flex-col  justify-center items-center  overflow-hidden   lg:flex-row-reverse lg:items-center lg:px-3 lg:pb-12 lg:pt-12">
+      <section className="relative  w-full py-6 flex flex-col  justify-center items-center  overflow-hidden   lg:flex-row-reverse lg:items-center lg:px-3 lg:pb-6 lg:pt-6">
     
-        <article className="relative z-50 w-full px-2  flex flex-col justify-start items-center text-balance gap-4 text-center py-[4%] lg:w-1/2  lg:px-9 xl:px-12 lg:pt-[2%] lg:rounded-lg md:max-w-[700px]  lg:max-w-[800px]  xl:gap-6 2xl:max-w-[900px]">
+        <article className="relative z-50 w-full px-2  flex flex-col justify-start items-center text-balance gap-4 text-center py-[4%] lg:w-1/2  lg:px-9 xl:px-12 lg:py-2  lg:rounded-lg md:max-w-[700px]  lg:max-w-[800px]  xl:gap-6 2xl:max-w-[900px]">
           <h6 className="text-primary text-4xl  font-medium font-title lg:text-primary lg:text-start lg:text-4xl xl:text-5xl 2xl:text-6xl">
           ¿Por qué elegir Xiaomi Service?
           </h6>
