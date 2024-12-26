@@ -60,7 +60,7 @@ const Home = () => {
         <img
           src={bgHomeMobile}
           alt="Fondo móvil"
-          className="w-full h-full object-cover object-center grayscale-[.]  z-20 lg:rounded-lg shadow-lg shadow-zinc-500"
+          className="w-full h-full object-cover object-center grayscale-[.]  z-20 lg:rounded-lg  shadow-zinc-500"
         />
       </figure>
     </section>
