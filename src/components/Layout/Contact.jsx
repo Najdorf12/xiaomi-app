@@ -1,5 +1,5 @@
 import bgContact from "/bg/bg1.webp";
-import map from "/map.jpeg";
+import map from "/map2.jpeg";
 import { useForm } from "react-hook-form";
 
 
