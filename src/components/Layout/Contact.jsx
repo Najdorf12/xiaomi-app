@@ -41,7 +41,7 @@ const Contact = () => {
             </h6>
             <p className=" mt-4 font-title flex items-start justify-start gap-2 xl:mt-4  xl:gap-3">
               <i className="bx bx-current-location text-2xl -mt-[3px] text-primary"></i>
-              Avenida Rivadavia 4963, local 15 - Caballito
+            Rivadavia 4963, local 15 - Caballito
             </p>
             <p className=" font-title flex items-start justify-start gap-2 xl:gap-3">
               <i className="bx bxl-whatsapp text-2xl -mt-[6px] text-primary"></i>
