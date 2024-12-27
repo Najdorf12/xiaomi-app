@@ -16,12 +16,16 @@ const Home = () => {
           <Logo />
         </figure>
         <ul className="flex justify-center font-medium items-center gap-6 font-title text-zinc-500 text-sm xl:text-base xl:gap-12 2xl:gap-16 2xl:text-xl ">
-          <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 hover:text-primary duration-500">
-            Servicio
-          </li>
-          <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 text-primary duration-500 hover:text-zinc-200">
-            Contacto
-          </li>
+          <a href="#service_section">
+            <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 hover:text-primary duration-500">
+              Servicio
+            </li>
+          </a>
+          <a href="#contact_section">
+            <li className="border-l-[1px] border-zinc-300 py-[1px] pl-2 xl:pl-3 cursor-pointer hover:scale-105 text-primary duration-500 hover:text-zinc-200">
+              Contacto
+            </li>
+          </a>
         </ul>
       </nav>
       <div className="lg:w-[40%] lg:pl-[2%] lg:self-start lg:mt-24">
@@ -39,20 +43,24 @@ const Home = () => {
             tus dispositivos.
           </p>
           <div className="w-full font-text2 text-sm flex justify-start items-start mt-8 gap-3  lg:gap-12 lg:mt-4 xl:mt-6 2xl:mt-8">
-            <button
-              id="box-glass2"
-              className="group  text-zinc-700 group border-[2px] rounded-3xl font-semibold  border-primary pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]    lg:w-[195px] shadow-lg shadow-zinc-500 duration-500"
-            >
-              SERVICIO
-              <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-primary text-zinc-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
-            </button>
-            <button
-              id="box-glass2"
-              className="group  text-zinc-600 group border-[2px] rounded-3xl font-semibold border-zinc-600  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]   lg:w-[195px] shadow-lg shadow-zinc-500  duration-500"
-            >
-              CONTACTO
-              <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full  bg-primary text-white flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
-            </button>
+            <a href="#service_section">
+              <button
+                id="box-glass2"
+                className="group  text-zinc-700 group border-[2px] rounded-3xl font-semibold  border-primary pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]    lg:w-[195px] shadow-lg shadow-zinc-500 duration-500"
+              >
+                SERVICIO
+                <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-primary text-zinc-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
+              </button>
+            </a>
+            <a href="#contact_section">
+              <button
+                id="box-glass2"
+                className="group  text-zinc-600 group border-[2px] rounded-3xl font-semibold border-zinc-600  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]   lg:w-[195px] shadow-lg shadow-zinc-500  duration-500"
+              >
+                CONTACTO
+                <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full  bg-primary text-white flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
+              </button>
+            </a>
           </div>
         </article>
       </div>
