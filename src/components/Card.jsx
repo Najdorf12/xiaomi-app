@@ -1,9 +1,9 @@
 
 const Card = ({cardData}) => {
   return (
-    <div id="box-glass2" className="w-[95%]  max-w-[400px]  py-3  rounded-xl border border-primary  flex justify-center items-start lg:py-4 lg:max-w-[370px] xl:max-w-[450px] shadow-lg shadow-gray duration-500 group 2xl:max-w-[560px] cursor-pointer ">
+    <div id="box-glass2" className="w-[95%]  max-w-[400px]  py-3  rounded-xl border border-primary  flex justify-center items-start lg:py-4 lg:max-w-[370px] xl:max-w-[430px] shadow-lg shadow-gray duration-500  group 2xl:max-w-[560px] cursor-pointer ">
       <figure className=" group-hover:scale-105 flex justify-center items-center w-[50%] duration-500">
-        <img src={cardData?.icon} alt="icon" className="w-16 lg:w-20 2xl:w-24" />
+        <img src={cardData?.icon} alt="icon" className="w-16 xl:w-20 2xl:w-24" />
       </figure>
       <div className="w-[21px] absolute bottom-0 right-0 h-[21px] rounded-full bg-primary z-40 "></div>
 
