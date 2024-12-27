@@ -7,7 +7,7 @@ import { useState } from "react";
 const Home = () => {
   const [windowWidth, setwindowWidth] = useState(window.innerWidth);
   return (
-    <section className="relative w-full h-[90vh] lg:h-screen overflow-hidden flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-2">
+    <section className="relative w-full h-[90vh] lg:h-screen overflow-hidden flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-20">
       <nav
         id="box-glass2"
         className="relative w-full border-b border-gray py-2 rounded-b-3xl flex justify-between items-center z-50  px-3 lg:absolute lg:top-0 xl:px-12 2xl:px-20 "
@@ -24,7 +24,7 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-      <div className="lg:w-1/2 lg:pl-[2%] lg:self-start lg:mt-24">
+      <div className="lg:w-[40%] lg:pl-[2%] lg:self-start lg:mt-24">
         <article className="relative mx-2 mt-6 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance  lg:text-start lg:justify-start lg:items-start   lg:mt-0 lg:pl-6 xl:pt-4 xl:pb-6 lg:w-[500px]">
           <h3 className="z-50 text-primary font-title font-semibold text-2xl leading-[3.3rem]  xl:text-4xl xl:leading-[5rem]">
             SERVICIO TECNICO
@@ -56,7 +56,7 @@ const Home = () => {
           </div>
         </article>
       </div>
-      <figure className="flex justify-center items-center w-full h-[400px] md:h-auto mt-4 lg:mt-0 lg:w-1/2 lg:pr-[2%]">
+      <figure className="flex justify-center items-center w-full h-[400px] md:h-auto mt-4 lg:mt-0 lg:w-[50%] lg:pr-[2%]">
         <img
           src={bgHomeMobile}
           alt="Fondo móvil"
