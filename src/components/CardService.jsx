@@ -11,7 +11,7 @@ const CardService = ({ serviceData }) => {
           className="object-cover object-center w-full h-full"
         />
       </figure>
-      <p className="text-stone-200 text-balance  font-medium text-sm font-text2 mt-2  lg:text-gray lg:text-lg  lg:-mt-7 xl:pr-6 ">
+      <p className="text-stone-200 text-balance  font-medium text-sm font-text2 mt-2   lg:text-lg  lg:-mt-7 xl:pr-6 ">
       {serviceData?.content}
       </p>
     </li>
