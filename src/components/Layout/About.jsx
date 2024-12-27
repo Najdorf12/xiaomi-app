@@ -25,7 +25,7 @@ const cardsData = [
 const About = () => {
   return (
     <>
-      <section className="overflow-hidden w-full flex justify-center items-center   pb-9 lg:pt-0 lg:pb-20 lg:-mt-9 2xl:-mt-20 2xl:pb-28">
+      <section className="overflow-hidden w-full flex justify-center items-center sm:-mt-9  pb-9 lg:pt-0 lg:pb-20 lg:-mt-9 2xl:-mt-20 2xl:pb-28">
         <ul className="z-50  w-full  relative flex justify-center px-3 items-center flex-wrap  gap-x-2 gap-y-5  lg:gap-0 lg:justify-evenly">
           {cardsData?.map((cardData, i) => (
             <Card key={i} cardData={cardData} />
