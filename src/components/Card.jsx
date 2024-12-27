@@ -7,7 +7,7 @@ const Card = ({cardData}) => {
       </figure>
       <div className="w-[21px] absolute bottom-0 right-0 h-[21px] rounded-full bg-primary z-40 "></div>
 
-      <article className="text-balance  lg:pl-5">
+      <article className="text-balance pl-2  lg:pl-5">
         <p className="font-text mt-3 text-zinc-500 text-sm font-medium xl:mt-5 xl:text-base  2xl:text-xl  cursor-context-menu duration-500">
           {cardData?.content}
         </p>
