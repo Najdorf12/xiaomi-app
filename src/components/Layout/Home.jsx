@@ -7,7 +7,7 @@ import { useState } from "react";
 const Home = () => {
   const [windowWidth, setwindowWidth] = useState(window.innerWidth);
   return (
-    <section className="relative w-full h-screen overflow-hidden flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-2">
+    <section className="relative w-full h-[90vh] lg:h-screen overflow-hidden flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-2">
       <nav
         id="box-glass2"
         className="relative w-full border-b border-gray py-2 rounded-b-3xl flex justify-between items-center z-50  px-3 lg:absolute lg:top-0 xl:px-12 2xl:px-20 "
