@@ -1,12 +1,13 @@
 
 const Card = ({cardData}) => {
   return (
-    <div id="box-glass2" className="w-[90%] h-[210px]  max-w-[400px]   pb-3 py-2 pl-3 pr-1 rounded-xl border border-primary  flex flex-col justify-between lg:pt-4 lg:pl-4 lg:pb-4 lg:h-[250px] lg:max-w-[370px] xl:max-w-[420px] xl:h-[270px] shadow-lg shadow-gray duration-500 group 2xl:max-w-[460px] 2xl:h-[280px] cursor-pointer">
-      <figure className="w-24 lg:w-28 group-hover:scale-105  duration-500">
-        <img src={cardData?.icon} alt="icon" />
+    <div id="box-glass2" className="w-[95%]  max-w-[400px]  py-3  rounded-xl border border-primary  flex justify-center items-start lg:py-4 lg:max-w-[370px] xl:max-w-[450px] shadow-lg shadow-gray duration-500 group 2xl:max-w-[560px] cursor-pointer ">
+      <figure className=" group-hover:scale-105 flex justify-center items-center w-[50%] duration-500">
+        <img src={cardData?.icon} alt="icon" className="w-16 lg:w-20 2xl:w-24" />
       </figure>
-      <article className="text-balance    ">
-        <div className="w-[35%] h-[1px] bg-primary z-40 "></div>
+      <div className="w-[21px] absolute bottom-0 right-0 h-[21px] rounded-full bg-primary z-40 "></div>
+
+      <article className="text-balance  lg:pl-5">
         <p className="font-text mt-3 text-zinc-500 text-sm font-medium xl:mt-5 xl:text-base  2xl:text-xl  cursor-context-menu duration-500">
           {cardData?.content}
         </p>
