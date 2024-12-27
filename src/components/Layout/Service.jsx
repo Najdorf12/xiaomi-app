@@ -29,7 +29,7 @@ const Service = () => {
         <img
           src={bgService}
           alt="bgService"
-          className="w-full h-[70%] max-w-[400px] object-cover object-[-40px] md:max-w-none md:w-[55%] md:object-center lg:w-[50%] lg:h-[80%] lg:rounded-tl-lg lg:rounded-bl-lg"
+          className="w-full h-[70%] max-w-[400px] object-cover object-[-40px] md:max-w-none  md:object-center lg:w-[100%] lg:h-[100%] lg:rounded-tl-lg lg:rounded-bl-lg"
         />
       </figure>
       <article className="relative z-50 flex flex-col  gap-2 text-balance px-3 ">
