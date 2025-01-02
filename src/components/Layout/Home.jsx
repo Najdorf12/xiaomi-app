@@ -38,9 +38,11 @@ const Home = () => {
             </span>
           </h3>
           <p className="z-50 font-title text-balance font-medium text-lg leading-5 text-zinc-500  lg:w-[550px]  lg:text-lg xl:w-[700px] xl:mt-1 2xl:text-xl  ">
-            Ofrecemos diagnósticos precisos, reparaciones rápidas y soluciones
-            duraderas. Confía en expertos que entienden tus necesidades y cuidan
-            tus dispositivos.
+            Podemos asegurarte que tenemos la solución justa para cualquier
+            problemática referente a su equipo. Nos especializamos en
+            Smartphones Xiaomi. Nuestro local se encuentra en el barrio de
+            Caballito, Ciudad Autónoma de Buenos Aires. Hacemos envíos y
+            reparación es de celulares a todo el país.
           </p>
           <div className="w-full font-text2 text-sm flex justify-start items-start mt-8 gap-3  lg:gap-12 lg:mt-4 xl:mt-6 2xl:mt-8">
             <a href="#service_section">
@@ -75,11 +77,3 @@ const Home = () => {
   );
 };
 export default Home;
-/* [5: 1 texto 
- 2 texto 
- 5 texto 
-
- 6 texto 3 items 
- 
- 
- ultimo texto: " */
