@@ -40,16 +40,16 @@ const Contact = () => {
             <h6 className="text-6xl text-zinc-700  font-medium font-title xl:text-7xl 2xl:text-8xl">
               Contacto
             </h6>
-            <p className=" mt-4 font-title flex items-start justify-start gap-2 xl:mt-4  xl:gap-3">
-              <i className="bx bx-current-location text-2xl -mt-[3px] text-primary"></i>
+            <p className=" mt-4 font-title flex items-center justify-start gap-2 xl:mt-4  xl:gap-3">
+              <i className="bx bx-current-location text-2xl -mt-[3px] text-primary 2xl:text-3xl"></i>
             Rivadavia 4963, local 15 - Caballito
             </p>
-            <p className=" font-title flex items-start justify-start gap-2 xl:gap-3">
-              <i className="bx bxl-whatsapp text-2xl -mt-[6px] text-primary"></i>
+            <p className=" font-title flex items-center justify-start gap-2 xl:gap-3">
+              <i className="bx bxl-whatsapp text-2xl -mt-[6px] text-primary 2xl:text-3xl"></i>
               1158803286
             </p>
-            <p className=" font-title flex items-start justify-start gap-2  xl:gap-3">
-              <i className="bx bxs-envelope text-2xl -mt-[6px] text-primary"></i>
+            <p className=" font-title flex items-center justify-start gap-2  xl:gap-3">
+              <i className="bx bxs-envelope text-2xl -mt-[6px] text-primary xl:-mt-[3px] 2xl:text-3xl 2xl:-mt-[2px]"></i>
               info@serviciotecnicoxiaomi.com.ar
             </p>
             <p className="text-base text-stone-500 font-title px-1 sm:px-2 mt-1  xl:mt-2 xl:text-lg 2xl:text-xl">
