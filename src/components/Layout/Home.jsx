@@ -28,8 +28,8 @@ const Home = () => {
           </a>
         </ul>
       </nav>
-      <div className="lg:w-[40%] lg:pl-[2%] lg:self-start lg:mt-24">
-        <article className="relative mx-2 mt-6 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance  lg:text-start lg:justify-start lg:items-start   lg:mt-0 lg:pl-6 xl:pt-4 xl:pb-6 lg:w-[500px]">
+      <div className="lg:w-[40%] lg:self-start lg:mt-24 xl:pl-2">
+        <article className="relative mx-2 mt-6 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance  lg:text-start lg:justify-start lg:items-start  lg:mt-0 lg:pl-6 xl:pt-4 xl:pb-6 lg:w-[500px]">
           <h3 className="z-50 text-primary font-title font-semibold text-2xl leading-[3.3rem]  xl:text-4xl xl:leading-[5rem]">
             SERVICIO TECNICO
             <br />
