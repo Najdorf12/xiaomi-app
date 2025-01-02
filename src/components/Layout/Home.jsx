@@ -33,7 +33,7 @@ const Home = () => {
           <h3 className="z-50 text-primary font-title font-semibold text-2xl leading-[3.3rem]  xl:text-4xl xl:leading-[5rem] 2xl:text-5xl">
             SERVICIO TECNICO
             <br />
-            <span className="text-[5.2rem] font-medium text-zinc-700 xl:text-[8.5rem] 2xl:text-[10rem]">
+            <span className="text-[5.2rem] font-medium text-zinc-700 xl:text-[8.5rem] 2xl:text-[10.2rem]">
               XIAOMI
             </span>
           </h3>
@@ -48,7 +48,7 @@ const Home = () => {
             <a href="#service_section">
               <button
                 id="box-glass2"
-                className="group  text-zinc-700 group border-[2px] rounded-3xl font-semibold  border-primary pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]    lg:w-[195px] shadow-lg shadow-zinc-500 duration-500"
+                className="group  text-zinc-700 group border-[2px] rounded-3xl font-semibold  border-primary pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]    lg:w-[195px] shadow-lg shadow-zinc-500 duration-500 2xl:text-xl 2xl:w-[220px]"
               >
                 SERVICIO
                 <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full bg-primary text-zinc-100 flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
@@ -57,7 +57,7 @@ const Home = () => {
             <a href="#contact_section">
               <button
                 id="box-glass2"
-                className="group  text-zinc-600 group border-[2px] rounded-3xl font-semibold border-zinc-600  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]   lg:w-[195px] shadow-lg shadow-zinc-500  duration-500"
+                className="group  text-zinc-600 group border-[2px] rounded-3xl font-semibold border-zinc-600  pl-4 pr-1 py-[1px]  flex justify-between items-center min-w-[170px] md:text-base xl:py-[2px]   lg:w-[195px] shadow-lg shadow-zinc-500  duration-500 2xl:text-xl 2xl:w-[220px]"
               >
                 CONTACTO
                 <i class="bx bx-arrow-back rotate-[145deg] text-2xl h-7 w-7 md:h-8 md:w-8 rounded-full  bg-primary text-white flex justify-center items-center  2xl:text-3xl group-hover:rotate-[220deg]  duration-500 font-normal"></i>
