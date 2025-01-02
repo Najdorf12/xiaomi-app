@@ -30,14 +30,14 @@ const Home = () => {
       </nav>
       <div className="lg:w-[40%] lg:self-start lg:mt-24 xl:pl-2">
         <article className="relative mx-2 mt-6 text-start z-50 rounded-xl flex flex-col justify-start items-start  pt-2 pb-4 pl-3 text-balance  lg:text-start lg:justify-start lg:items-start  lg:mt-0 lg:pl-6 xl:pt-4 xl:pb-6 lg:w-[500px]">
-          <h3 className="z-50 text-primary font-title font-semibold text-2xl leading-[3.3rem]  xl:text-4xl xl:leading-[5rem]">
+          <h3 className="z-50 text-primary font-title font-semibold text-2xl leading-[3.3rem]  xl:text-4xl xl:leading-[5rem] 2xl:text-5xl">
             SERVICIO TECNICO
             <br />
-            <span className="text-[5.2rem] font-medium text-zinc-700 xl:text-[8.5rem] 2xl:text-[8.5rem]">
+            <span className="text-[5.2rem] font-medium text-zinc-700 xl:text-[8.5rem] 2xl:text-[10rem]">
               XIAOMI
             </span>
           </h3>
-          <p className="z-50 font-title text-balance font-medium text-lg leading-5 text-zinc-500  lg:w-[550px]  lg:text-lg xl:w-[700px] xl:mt-1 2xl:text-xl  ">
+          <p className="z-50 font-title text-balance font-medium text-lg leading-5 text-zinc-500  lg:w-[550px]  lg:text-lg xl:w-[700px] xl:mt-1 2xl:text-2xl  ">
             Podemos asegurarte que tenemos la solución justa para cualquier
             problemática referente a su equipo. Nos especializamos en
             Smartphones Xiaomi. Nuestro local se encuentra en el barrio de
