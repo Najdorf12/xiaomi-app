@@ -66,7 +66,7 @@ const Home = () => {
           </div>
         </article>
       </div>
-      <figure className="flex justify-center items-center w-full h-[400px] md:h-auto mt-4 lg:mt-0 lg:w-[50%] lg:pr-[2%]">
+      <figure className="flex justify-center items-center w-full h-[400px] md:h-auto mt-4 lg:mt-0 lg:w-[48%] lg:pr-[2%] 2xl:w-[46%]">
         <img
           src={bgHomeMobile}
           alt="Fondo móvil"
