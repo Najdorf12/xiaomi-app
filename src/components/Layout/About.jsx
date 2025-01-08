@@ -9,17 +9,17 @@ const cardsData = [
   {
     icon: icon1,
     content:
-      "Opciones ágiles y efectivas: Brindamos respuestas dentro de las 24 horas, según la complejidad del equipo afectado.",
+      "Somos la mejor opción a la hora de reparar su teléfono Xiaomi sabemos y contamos con mucha información sobre la marca.",
   },
   {
     icon: icon2,
     content:
-      "Atención 24/7: Estamos disponibles para responder rápidamente y resolver cualquier consulta que puedas tener.",
+      "Realizamos retiros en moto en todo Capital Federal contamos con servicio de retiro propio de confianza",
   },
   {
     icon: icon3,
     content:
-      "Respaldo garantizado: Nuestros servicios cuentan con garantía para brindarte tranquilidad y confianza.",
+    "Trae tu equipo mojado y llevatelo andando!",
   },
 ];
 const About = () => {

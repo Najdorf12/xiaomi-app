@@ -8,7 +8,7 @@ const servicesData = [
   {
     icon: iconService1,
     content:
-      "Garantía extendida en reparaciones: Todas nuestras reparaciones incluyen garantía, asegurándote tranquilidad y confianza en nuestro trabajo.",
+      "Reparamos todos los modelos y todas las versiones. Contamos laboratorio electrónico propio, equipado con la mejor tecnología para lograr la reparación de su equipo en un tiempo reducido.",
   },
   {
     icon: iconService2,
@@ -24,7 +24,10 @@ const servicesData = [
 
 const Service = () => {
   return (
-    <section id="service_section" className="overflow-hidden relative w-full bg-[rgb(0,0,0)] lg:bg-transparent pt-10 pb-20 px-[3%] md:py-[4%]  flex flex-col justify-start  items-start">
+    <section
+      id="service_section"
+      className="overflow-hidden relative w-full bg-[rgb(0,0,0)] lg:bg-transparent pt-10 pb-20 px-[3%] md:py-[4%]  flex flex-col justify-start  items-start"
+    >
       <figure className="absolute inset-0 w-full h-full flex justify-end items-end self-end grayscale-[.8]">
         <img
           src={bgService}
